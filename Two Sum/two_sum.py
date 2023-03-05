@@ -60,12 +60,12 @@ class TestNumber(unittest.TestCase):
         self.assertEqual(result,test)
         
         #test constraint -109 <= target <= 109
-   def test_two_sum_8(self):
+   def test_two_sum_9(self):
         test = Two_Sum([109,0,1],110)
         result = False 
         self.assertEqual(result,test)
 
-   def test_two_sum_8(self):
+   def test_two_sum_10(self):
         test = Two_Sum([-110,0,1],-110)
         result = False 
         self.assertEqual(result,test)
